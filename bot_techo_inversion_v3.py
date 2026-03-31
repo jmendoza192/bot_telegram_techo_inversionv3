@@ -67,8 +67,8 @@ def calcular_auditoria_360(datos):
     }
 
 def formato_moneda(numero):
-    """Convierte número a formato S/ X.XXX con puntos como separadores de miles."""
-    return f"S/ {numero:,}".replace(",", ".")
+    """Convierte número a formato S/. X,XXX con comas como separadores de miles."""
+    return f"S/. {numero:,}"
 
 # ==========================================
 # MANEJADORES DE CONVERSACIÓN
